@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,500&display=swap");
 
+/* universal reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +11,8 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+/* reuseble tag and classes */
 
 h1 {
   font-size: 60px;
@@ -41,6 +45,8 @@ h3 {
   text-align: center;
 }
 
+/* hero-section */
+
 .hero-section {
   display: flex;
   justify-content: space-evenly;
@@ -54,6 +60,7 @@ h3 {
   justify-content: space-evenly;
 }
 
+/* about-section */
 .about-section {
   display: flex;
   justify-content: space-evenly;
@@ -65,13 +72,11 @@ h3 {
   background-position: top 10px left 200px;
   padding-top: 50px;
 }
-
 .about-section img {
   max-width: 250px;
   object-fit: contain;
   margin-left: 40px;
 }
-
 .content-box-about {
   max-width: 440px;
   display: flex;
@@ -79,10 +84,10 @@ h3 {
   justify-content: space-evenly;
 }
 
+/* recipie section */
 .recepie-section {
   padding-bottom: 60px;
 }
-
 .recepie-title {
   display: flex;
   flex-direction: column;
@@ -90,12 +95,10 @@ h3 {
   align-items: center;
   padding: 70px;
 }
-
 .recepie-title p {
   text-align: center;
   margin-top: 30px;
 }
-
 .recipies {
   display: flex;
   justify-content: space-evenly;
@@ -112,8 +115,38 @@ h3 {
   border-radius: 30px;
   padding: 10px 10px 40px 10px;
 }
-
 .recipie img {
   width: 450px;
   object-fit: contain;
+}
+/* status section */
+.status-section {
+  width: 73%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 0px;
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  margin-bottom: 60px;
+}
+.status-section h4 {
+  padding: 10px 0;
+  font-size: 20px;
+}
+/* footer */
+footer {
+  height: 180px;
+  background-color: #0b0d17;
+  text-align: center;
+  padding-top: 35px;
+}
+footer h4 {
+  font-size: 22px;
+  color: #5b5b5b;
+}
+footer p {
+  color: white;
+  margin-top: 35px;
 }
