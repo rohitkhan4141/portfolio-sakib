@@ -14,10 +14,18 @@ h1 {
   font-size: 60px;
   color: #494848;
 }
+h2 {
+  font-size: 40px;
+  color: #494848;
+}
 .primary-color {
   color: #45a5f5;
 }
-
+h3 {
+  font-size: 24px;
+  color: rgb(31, 30, 30);
+  padding: 30px 0;
+}
 .btn-primary {
   text-decoration: none;
   padding: 24px 32px;
@@ -69,4 +77,43 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+
+.recepie-section {
+  padding-bottom: 60px;
+}
+
+.recepie-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 70px;
+}
+
+.recepie-title p {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.recipies {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
+}
+.recipie {
+  max-width: 470px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 30px;
+  padding: 10px 10px 40px 10px;
+}
+
+.recipie img {
+  width: 450px;
+  object-fit: contain;
 }
