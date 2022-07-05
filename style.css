@@ -18,11 +18,6 @@ h1 {
   color: #45a5f5;
 }
 
-.hero-section {
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .btn-primary {
   text-decoration: none;
   padding: 24px 32px;
@@ -38,15 +33,40 @@ h1 {
   text-align: center;
 }
 
+.hero-section {
+  display: flex;
+  justify-content: space-evenly;
+  max-height: 90vh;
+  margin: 70px 30px 60px 50px;
+}
 .content-box {
-  margin-top: 60px;
-  margin-left: 50px;
+  max-width: 630px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
-.image-box img {
-  margin-top: 40px;
-  margin-right: 20px;
+.about-section {
+  display: flex;
+  justify-content: space-evenly;
+  max-height: 600px;
+  background: rgba(73, 180, 252, 0.1);
+  background-image: url(images/shapes/Frame\ 57.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top 10px left 200px;
+  padding-top: 50px;
+}
+
+.about-section img {
+  max-width: 250px;
+  object-fit: contain;
+  margin-left: 40px;
+}
+
+.content-box-about {
+  max-width: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
